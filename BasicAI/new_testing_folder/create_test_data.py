@@ -8,9 +8,9 @@ while True:
         if len(data_list) == 3500:
             break
 
-        r1 = random.randint(0, 100)
-        r2 = random.randint(0, 100)
-        r3 = random.randint(0, 100)
+        r1 = random.randint(-100, 100)
+        r2 = random.randint(-100, 100)
+        r3 = random.randint(-100, 100)
         s = sum([r1, r2, r3]) #this is also the label
         data_row = [r1, r2, r3, s]
 

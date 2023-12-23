@@ -15,8 +15,7 @@ print(x.shape)
 print(y.shape)
 
 
-#model = svm.SVC(kernel='linear')
-model = svm.SVR()
+model = svm.SVC(kernel='linear')
 
 model.fit(x_train, y_train)
 predictions = model.predict(x_test)
